@@ -1,0 +1,44 @@
+.homepage-wrapper {
+  padding-top: 40px;
+
+  .comb-show-create {
+    display: flex;
+
+    .show-wrapper {
+      margin-right: auto;
+      margin-left: 0px;
+      width: 200px;
+
+      p {
+        font-weight: 500;
+        font-size: large;
+      }
+    }
+
+    .create-wrapper {
+      margin-right: 0px;
+      margin-left: auto;
+      width: 200px;
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .pagination {
+    max-width: 400px;
+    display: flex;
+    margin: auto;
+  }
+
+  .text-page {
+    font-size: 38px;
+    width: 380px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+  }
+}

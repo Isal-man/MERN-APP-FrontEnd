@@ -1,0 +1,41 @@
+.button {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    color: white;
+}
+
+.button:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
